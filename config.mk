@@ -4,11 +4,11 @@ VERSION = 0.9
 # Customize below to fit your system
 
 # paths
-PREFIX = /usr/local
+PREFIX = /home/mperezandrade/compiled
 MANPREFIX = $(PREFIX)/share/man
 
-X11INC = /usr/X11R6/include
-X11LIB = /usr/X11R6/lib
+X11INC = /home/mperezandrade/Downloads/usr/include/X11
+X11LIB = /usr/lib64
 
 PKG_CONFIG = pkg-config
 
@@ -30,7 +30,6 @@ STLDFLAGS = $(LIBS) $(LDFLAGS)
 #LIBS = -L$(X11LIB) -lm -lX11 -lutil -lXft \
 #       `$(PKG_CONFIG) --libs fontconfig` \
 #       `$(PKG_CONFIG) --libs freetype2`
-#MANPREFIX = ${PREFIX}/man
 
 # compiler and linker
 # CC = c99
